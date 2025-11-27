@@ -5,11 +5,11 @@ A fully functional, responsive website for Markets Decoded - specializing in rap
 ## Focus Areas
 
 - **Rapid Value Acceleration**: Quick-win identification and execution to drive immediate value creation
-- **Operational Excellence**: Transform core operations through process optimization and efficiency improvements
 - **Growth Acceleration**: Accelerate revenue growth through market expansion and sales optimization
 - **Strategic Transformation**: Rapid transformation of key business functions
 - **EBITDA Enhancement**: Direct focus on EBITDA improvement through cost optimization and margin expansion
 - **Performance Management**: Implement robust KPI frameworks and reporting systems
+- **Culture and Conflict Transformation**: Transform organizational culture and resolve conflicts to unlock team potential
 
 ## Features
 
@@ -29,7 +29,7 @@ A fully functional, responsive website for Markets Decoded - specializing in rap
 
 1. **Hero Section**: Eye-catching landing area with animated chart visualization emphasizing rapid value creation
 2. **About**: Company mission and approach focused on rapid value creation for portfolio companies
-3. **Services**: Six core service offerings focused on rapid value creation, operational excellence, and growth acceleration
+3. **Services**: Six core service offerings focused on rapid value creation, culture and conflict transformation, and growth acceleration
 4. **Contact**: Contact information for portfolio companies seeking rapid value creation services
 5. **Footer**: Additional links and social media
 
