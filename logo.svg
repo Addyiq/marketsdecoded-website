@@ -16,10 +16,6 @@
     <rect x="13" y="22" width="3.5" height="18" fill="#051C2C" rx="1.5"/>
     <rect x="19" y="15" width="3.5" height="25" fill="#2251FF" rx="1.5"/>
     <rect x="25" y="8" width="3.5" height="32" fill="#051C2C" rx="1.5"/>
-    
-    <!-- Decoding/analysis line - upward trend -->
-    <path d="M 2.75 38 Q 10 30 16.75 20 Q 20 15 28.75 10" stroke="#00A9F4" stroke-width="1.2" fill="none" opacity="0.7"/>
-    <circle cx="28.75" cy="10" r="1.5" fill="#00A9F4" opacity="0.7"/>
   </g>
   
   <!-- Company name with sophisticated typography -->
