@@ -104,6 +104,27 @@ p {
     align-items: center;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    transition: opacity 0.3s ease;
+}
+
+.logo-img:hover {
+    opacity: 0.8;
+}
+
 .nav-logo h2 {
     color: #051C2C;
     margin: 0;
@@ -555,6 +576,13 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
+}
+
+.footer-logo {
+    height: 35px;
+    width: auto;
+    margin-bottom: 1rem;
+    filter: brightness(0) invert(1);
 }
 
 .footer-section h3,
