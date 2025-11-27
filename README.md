@@ -1,12 +1,15 @@
 # Markets Decoded Website
 
-A fully functional, responsive website for Markets Decoded - specializing in FP&A transformation and growth strategy for private equity owned portfolio companies.
+A fully functional, responsive website for Markets Decoded - specializing in rapid value creation services for private equity owned portfolio companies.
 
 ## Focus Areas
 
-- **FP&A Transformation**: Complete overhaul of financial planning and analysis capabilities
-- **Growth Strategy Development**: Comprehensive growth strategy formulation for portfolio companies
-- **Data & Analytics**: Advanced analytics and business intelligence solutions
+- **Rapid Value Acceleration**: Quick-win identification and execution to drive immediate value creation
+- **Operational Excellence**: Transform core operations through process optimization and efficiency improvements
+- **Growth Acceleration**: Accelerate revenue growth through market expansion and sales optimization
+- **Strategic Transformation**: Rapid transformation of key business functions
+- **EBITDA Enhancement**: Direct focus on EBITDA improvement through cost optimization and margin expansion
+- **Performance Management**: Implement robust KPI frameworks and reporting systems
 
 ## Features
 
@@ -18,16 +21,16 @@ A fully functional, responsive website for Markets Decoded - specializing in FP&
   - Form validation and submission
   - Animated counters and charts
   - Parallax effects
-- **Professional Content**: Tailored content for FP&A transformation and growth strategy services
+- **Professional Content**: Tailored content for rapid value creation services for private equity portfolio companies
 - **Performance Optimized**: Debounced scroll events, lazy loading, and efficient animations
 - **Accessibility**: Keyboard navigation support and focus states
 
 ## Sections
 
-1. **Hero Section**: Eye-catching landing area with animated chart visualization
-2. **About**: Company mission, approach, and key statistics focused on portfolio company transformation
-3. **Services**: Three core service offerings focused on FP&A transformation and growth strategy
-4. **Contact**: Contact information and inquiry form for portfolio companies
+1. **Hero Section**: Eye-catching landing area with animated chart visualization emphasizing rapid value creation
+2. **About**: Company mission and approach focused on rapid value creation for portfolio companies
+3. **Services**: Six core service offerings focused on rapid value creation, operational excellence, and growth acceleration
+4. **Contact**: Contact information for portfolio companies seeking rapid value creation services
 5. **Footer**: Additional links and social media
 
 ## Technologies Used
