@@ -10,16 +10,16 @@
       <line x1="26" y1="10" x2="26" y2="40" stroke="#051C2C" stroke-width="0.5"/>
     </g>
     
-    <!-- Data bars representing market insights -->
-    <rect x="1" y="28" width="3.5" height="12" fill="#2251FF" rx="1.5"/>
-    <rect x="7" y="22" width="3.5" height="18" fill="#2251FF" rx="1.5"/>
-    <rect x="13" y="15" width="3.5" height="25" fill="#051C2C" rx="1.5"/>
-    <rect x="19" y="25" width="3.5" height="15" fill="#2251FF" rx="1.5"/>
+    <!-- Data bars representing market insights - all trending upward -->
+    <rect x="1" y="32" width="3.5" height="8" fill="#2251FF" rx="1.5"/>
+    <rect x="7" y="28" width="3.5" height="12" fill="#2251FF" rx="1.5"/>
+    <rect x="13" y="22" width="3.5" height="18" fill="#051C2C" rx="1.5"/>
+    <rect x="19" y="15" width="3.5" height="25" fill="#2251FF" rx="1.5"/>
     <rect x="25" y="8" width="3.5" height="32" fill="#051C2C" rx="1.5"/>
     
-    <!-- Decoding/analysis line -->
-    <path d="M 2.75 38 Q 10 30 16.75 20" stroke="#00A9F4" stroke-width="1.2" fill="none" opacity="0.7"/>
-    <circle cx="16.75" cy="20" r="1.5" fill="#00A9F4" opacity="0.7"/>
+    <!-- Decoding/analysis line - upward trend -->
+    <path d="M 2.75 38 Q 10 30 16.75 20 Q 20 15 28.75 10" stroke="#00A9F4" stroke-width="1.2" fill="none" opacity="0.7"/>
+    <circle cx="28.75" cy="10" r="1.5" fill="#00A9F4" opacity="0.7"/>
   </g>
   
   <!-- Company name with sophisticated typography -->
