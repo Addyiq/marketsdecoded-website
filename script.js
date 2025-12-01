@@ -99,6 +99,18 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Chart animation for hero section
+function animateChart() {
+    const chartBars = document.querySelectorAll('.chart-bar');
+    chartBars.forEach((bar, index) => {
+        setTimeout(() => {
+            bar.style.height = bar.style.height;
+        }, index * 200);
+    });
+}
+
+// Initialize chart animation when page loads
+window.addEventListener('load', animateChart);
 
 // Parallax effect for hero section
 window.addEventListener('scroll', function() {

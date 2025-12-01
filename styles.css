@@ -238,11 +238,27 @@ p {
     padding: 2rem;
 }
 
-.hero-chart-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 4px;
+.chart-container {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+    height: 200px;
+}
+
+.chart-bar {
+    width: 40px;
+    background: #2251FF;
+    border-radius: 4px 4px 0 0;
+    animation: growUp 1s ease-out;
+}
+
+@keyframes growUp {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--height);
+    }
 }
 
 /* Section Headers */
@@ -316,12 +332,16 @@ p {
     justify-content: center;
 }
 
-.about-process-image {
+.image-placeholder {
     width: 100%;
-    max-width: 600px;
-    height: auto;
+    height: 300px;
+    background: #051C2C;
     border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(5, 28, 44, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
 }
 
 /* Services Section */
