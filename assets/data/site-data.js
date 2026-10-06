@@ -87,7 +87,7 @@
         href: 'industries.html',
         id: 'industries',
         mega: {
-          intro: 'Sector depth where the lower and core middle market is most active.',
+          intro: 'Sector depth where the core middle market is most active.',
           columns: [
             {
               heading: 'Lead sectors',
