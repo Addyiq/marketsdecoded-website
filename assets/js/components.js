@@ -239,7 +239,7 @@
             return (
               '<div class="mega-col">' +
                 '<p class="mega-heading">' + esc(col.heading) + '</p>' +
-                '<ul>' + map(col.links, function (l) { return '<li><a href="' + esc(l.href) + '">' + esc(l.label) + '</a></li>'; }) + '</ul>' +
+                '<ul>' + map(col.links, function (l) { return '<li><a href="' + esc(l.href) + '"' + (l.external ? ' target="_blank" rel="noopener"' : '') + '>' + esc(l.label) + (l.external ? '<span class="sr-only"> (opens in a new tab)</span>' : '') + '</a></li>'; }) + '</ul>' +
               '</div>'
             );
           }) +
@@ -314,7 +314,7 @@
                 '<ul>' +
                   '<li><a href="' + esc(item.href) + '"' + (item.id === active ? ' aria-current="page"' : '') + '>' + esc(item.label) + ' overview</a></li>' +
                   map(item.mega.columns, function (col) {
-                    return map(col.links, function (l) { return '<li><a href="' + esc(l.href) + '">' + esc(l.label) + '</a></li>'; });
+                    return map(col.links, function (l) { return '<li><a href="' + esc(l.href) + '"' + (l.external ? ' target="_blank" rel="noopener"' : '') + '>' + esc(l.label) + (l.external ? '<span class="sr-only"> (opens in a new tab)</span>' : '') + '</a></li>'; });
                   }) +
                 '</ul>' +
               '</details>'
@@ -342,7 +342,7 @@
               return (
                 '<nav class="footer-col" aria-label="' + esc(col.heading) + '">' +
                   '<h2 class="footer-heading">' + esc(col.heading) + '</h2>' +
-                  '<ul>' + map(col.links, function (l) { return '<li><a href="' + esc(l.href) + '">' + esc(l.label) + '</a></li>'; }) + '</ul>' +
+                  '<ul>' + map(col.links, function (l) { return '<li><a href="' + esc(l.href) + '"' + (l.external ? ' target="_blank" rel="noopener"' : '') + '>' + esc(l.label) + (l.external ? '<span class="sr-only"> (opens in a new tab)</span>' : '') + '</a></li>'; }) + '</ul>' +
                 '</nav>'
               );
             }) +
@@ -594,7 +594,7 @@
           '<h2 class="h2">' + esc(it.title) + '</h2>' +
           '<p>' + esc(it.summary) + '</p>' +
           (soon
-            ? '<p class="badge">Coming soon</p>' + '<p>' + TextLink({ href: 'contact.html?interest=newsletter', label: 'Get notified' }) + '</p>'
+            ? '<p class="badge">Coming soon</p>' + '<p>' + TextLink({ href: data.newsletter.url, label: 'Get notified' }) + '</p>'
             : TextLink({ href: it.href, label: 'Read' })) +
         '</div>' +
       '</article>'
@@ -607,7 +607,7 @@
     return (
       '<div class="newsletter reveal">' +
         '<div><p class="eyebrow">Newsletter</p><h2 class="h3">Subscribe to “' + esc(n.name) + '”</h2><p>' + esc(n.summary) + '</p></div>' +
-        Button({ href: 'contact.html?interest=newsletter', label: 'Request a subscription', variant: 'primary' }) +
+        '<a class="btn btn-primary" href="' + esc(n.url) + '" target="_blank" rel="noopener">Subscribe on Substack' + Icon({ name: 'arrow' }) + '<span class="sr-only"> (opens in a new tab)</span></a>' +
       '</div>'
     );
   }

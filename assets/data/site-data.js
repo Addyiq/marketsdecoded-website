@@ -524,7 +524,8 @@
 
     newsletter: {
       name: 'Decoded',
-      summary: 'A monthly newsletter on sponsor value creation: playbooks, case lessons and field notes from the US and Canada.'
+      url: 'https://marketsdecoded.substack.com/subscribe',
+      summary: 'A weekly newsletter for PE operators on value creation, debt markets and AI: playbooks, a chart of the week and a monthly debt markets update, across the US and Canada.'
     },
 
     /* ---------------------------------------------------------------- */
@@ -606,7 +607,6 @@
         { value: 'risk', label: 'Risk Transformation' },
         { value: 'digital', label: 'Digital Transformation' },
         { value: 'cultural', label: 'Cultural Transformation' },
-        { value: 'newsletter', label: '"Decoded" newsletter' },
         { value: 'partnership', label: 'Partnership (lender, advisor, technology)' },
         { value: 'expert-network', label: 'Joining the expert network' },
         { value: 'careers', label: 'Careers' },
@@ -634,6 +634,7 @@
             { label: 'Industries', href: 'industries.html' },
             { label: 'Results', href: 'results.html' },
             { label: 'Insights', href: 'insights.html' },
+            { label: 'Newsletter', href: 'https://marketsdecoded.substack.com', external: true },
             { label: 'Careers', href: 'careers.html' }
           ]
         }
