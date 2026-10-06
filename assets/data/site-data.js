@@ -537,7 +537,7 @@
 
     approachSteps: [
       { step: '01', title: 'Baseline', body: 'Agree the KPIs that matter to the sponsor and measure where they stand today.' },
-      { step: '02', title: 'Decode', body: 'Find the few levers that move cash and EBITDA fastest.' },
+      { step: '02', title: 'Decode', body: 'Find the specific levers that move cash and EBITDA fastest.' },
       { step: '03', title: 'Deliver', body: 'Work side by side with management in focused sprints.' },
       { step: '04', title: 'Prove', body: 'Close with an Impact Report: baseline, outcome and recommended next steps.' }
     ],
