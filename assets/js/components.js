@@ -406,7 +406,7 @@
         '<span class="practice-number" aria-hidden="true">' + esc(p.number) + '</span>' +
         '<h3 class="practice-name"><a href="services.html#' + esc(p.id) + '" class="stretched">' + esc(p.name) + '</a></h3>' +
         '<p class="practice-summary">' + esc(p.summary) + '</p>' +
-        (props.featured ? '<p class="practice-flag">Hero offer: 13-Week Cash &amp; CCC Sprint</p>' : '') +
+        (props.featured ? '<p class="practice-flag">Signature offer: 13-Week Cash &amp; CCC Sprint</p>' : '') +
         '<span class="practice-more" aria-hidden="true">Explore ' + Icon({ name: 'arrow' }) + '</span>' +
       '</article>'
     );
@@ -464,7 +464,7 @@
           return (
             '<li class="ladder-step reveal' + (o.highlight ? ' is-highlight' : '') + '" style="--step:' + i + ';--delay:' + i * 80 + 'ms">' +
               '<div class="ladder-card">' +
-                '<p class="ladder-tier">Tier ' + esc(o.tier) + '</p>' +
+                '<p class="ladder-tier">Step ' + esc(o.tier) + '</p>' +
                 '<h3 class="ladder-name">' + esc(o.name) + '</h3>' +
                 '<p class="ladder-meta"><span>' + esc(o.duration) + '</span>' + (o.label ? '<span>' + esc(o.label) + '</span>' : '') + '</p>' +
                 '<p class="ladder-purpose">' + esc(o.purpose) + '</p>' +

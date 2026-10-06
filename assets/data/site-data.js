@@ -76,7 +76,7 @@
             }
           ],
           feature: {
-            eyebrow: 'Hero offer',
+            eyebrow: 'Signature offer',
             title: 'The 13-Week Cash & CCC Sprint',
             href: 'services.html#financial'
           }
@@ -445,7 +445,7 @@
     ],
 
     sponsorTypes: [
-      'Private equity sponsors with US$100M–$2B funds',
+      'Middle-market private equity sponsors',
       'Independent sponsors and search funds',
       'Family offices',
       'Private credit and ABL lenders',
@@ -539,7 +539,7 @@
       { step: '01', title: 'Baseline', body: 'Agree the KPIs that matter to the sponsor and measure where they stand today.' },
       { step: '02', title: 'Decode', body: 'Find the few levers that move cash and EBITDA fastest.' },
       { step: '03', title: 'Deliver', body: 'Work side by side with management in focused sprints.' },
-      { step: '04', title: 'Prove', body: 'Close with an Impact Report: baseline, outcome and next opportunity.' }
+      { step: '04', title: 'Prove', body: 'Close with an Impact Report: baseline, outcome and recommended next steps.' }
     ],
 
     /* ---------------------------------------------------------------- */
