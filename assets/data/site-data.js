@@ -198,12 +198,13 @@
         name: 'Risk Transformation',
         short: 'Risk',
         number: '03',
-        summary: 'See the portfolio’s cyber exposure from the outside in, then remediate what matters before it reaches the board.',
+        summary: 'See the portfolio’s cyber and AI exposure from the outside in, then remediate what matters before it reaches the board.',
         description:
-          'Starting with an external exposure scan, we assess cyber risk across one company or a whole portfolio, prioritize remediation and set up continuous monitoring with our technology partner.',
+          'Starting with an external exposure scan, we assess cyber risk across one company or a whole portfolio, check the AI tools and agents each company runs, prioritize remediation and set up continuous monitoring with our technology partner.',
         services: [
           'Portfolio Cyber Exposure Scan',
           'Cyber Risk Assessment',
+          'AI & agent exposure check',
           'Remediation roadmap',
           'Cyber monitoring (portfolio license)'
         ],
@@ -514,7 +515,7 @@
         id: 'portfolio-cyber-hygiene',
         type: 'Playbook',
         title: 'Portfolio Cyber Hygiene for Operating Partners',
-        summary: 'The questions every operating partner should ask about cyber exposure across the portfolio.',
+        summary: 'The questions every operating partner should ask about cyber and AI-agent exposure across the portfolio.',
         practiceId: 'risk',
         status: 'available',
         href: 'insight-portfolio-cyber-hygiene.html'
