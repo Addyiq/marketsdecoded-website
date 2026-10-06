@@ -24,7 +24,7 @@
       url: 'https://www.marketsdecoded.com',
       email: 'contactus@marketsdecoded.com',
       linkedin: 'https://www.linkedin.com/company/markets-decoded/',
-      tagline: 'From thesis to cash in 100 days.',
+      tagline: 'Rapid Value Creation in 100 days.',
       altTaglines: ['Value, Decoded.', 'Rapid value creation for the sponsor-backed middle market.'],
       positioning:
         'For PE sponsors and their portfolio companies, Markets Decoded is the senior-led value creation partner that turns the investment thesis into measurable cash and EBITDA impact within 100 days, across the US and Canada.',
