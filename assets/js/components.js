@@ -594,7 +594,7 @@
           '<h2 class="h2">' + esc(it.title) + '</h2>' +
           '<p>' + esc(it.summary) + '</p>' +
           (soon
-            ? '<p class="badge">Coming soon</p>' + '<p>' + TextLink({ href: 'contact.html?interest=benchmark', label: 'Get early access' }) + '</p>'
+            ? '<p class="badge">Coming soon</p>' + '<p>' + TextLink({ href: 'contact.html?interest=newsletter', label: 'Get notified' }) + '</p>'
             : TextLink({ href: it.href, label: 'Read' })) +
         '</div>' +
       '</article>'

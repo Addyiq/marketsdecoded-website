@@ -172,8 +172,7 @@
           '13-Week Cash & CCC Sprint',
           'Turnaround & Liquidity',
           'Exit Readiness',
-          'Fractional CFO / Value Creation Office',
-          'Quarterly Portfolio Benchmarking'
+          'Fractional CFO / Value Creation Office'
         ],
         outcomes: ['Cash conversion cycle', 'Working capital released', 'Lender confidence'],
         hero: true
@@ -274,7 +273,7 @@
         name: 'Retainer',
         duration: 'Ongoing',
         purpose: 'Continuous support across the portfolio.',
-        items: ['Fractional CFO / Value Creation Office', 'Cyber monitoring (portfolio license)', 'Quarterly Portfolio Benchmarking']
+        items: ['Fractional CFO / Value Creation Office', 'Cyber monitoring (portfolio license)']
       }
     ],
 
@@ -456,16 +455,6 @@
     /* ---------------------------------------------------------------- */
     insights: [
       {
-        id: 'cash-conversion-benchmark',
-        type: 'Benchmark',
-        title: 'The Sponsor-Backed Cash Conversion Benchmark',
-        summary: 'Why cash conversion matters for sponsor-backed companies, what our forthcoming benchmark measures and how to use it.',
-        practiceId: 'financial',
-        status: 'available',
-        href: 'insight-cash-conversion-benchmark.html',
-        featured: true
-      },
-      {
         id: '100-day-cash-playbook',
         type: 'Playbook',
         title: 'The 100-Day Cash Playbook',
@@ -534,7 +523,7 @@
 
     newsletter: {
       name: 'Decoded',
-      summary: 'A monthly newsletter on sponsor value creation: benchmark findings, playbooks and field notes from the US and Canada.'
+      summary: 'A monthly newsletter on sponsor value creation: playbooks, case lessons and field notes from the US and Canada.'
     },
 
     /* ---------------------------------------------------------------- */
@@ -616,7 +605,6 @@
         { value: 'risk', label: 'Risk Transformation' },
         { value: 'digital', label: 'Digital Transformation' },
         { value: 'cultural', label: 'Cultural Transformation' },
-        { value: 'benchmark', label: 'Cash Conversion Benchmark' },
         { value: 'newsletter', label: '"Decoded" newsletter' },
         { value: 'partnership', label: 'Partnership (lender, advisor, technology)' },
         { value: 'expert-network', label: 'Joining the expert network' },

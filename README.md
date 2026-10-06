@@ -20,9 +20,9 @@ You can also open `index.html` straight from disk, because all scripts are class
 ├── services.html         5 practices + offer ladder (durations, no fees)
 ├── industries.html       Sponsors served, lead/secondary sectors, trigger events
 ├── results.html          5 anonymized case studies (Focus/Industry/Challenge/Approach/Impact)
-├── insights.html         Featured benchmark, filterable article cards, newsletter
+├── insights.html         Featured playbook, filterable article cards, newsletter
 ├── insight-*.html        Seven article pages (static text for SEO), linked from site-data.js → insights:
-│     insight-cash-conversion-benchmark.html, insight-100-day-cash-playbook.html,
+│     insight-100-day-cash-playbook.html,
 │     insight-100-day-plans-day-45.html, insight-sales-comp-ebitda-lever.html,
 │     insight-sales-comp-redesign-8-weeks.html, insight-post-merger-culture-checklist.html,
 │     insight-portfolio-cyber-hygiene.html
